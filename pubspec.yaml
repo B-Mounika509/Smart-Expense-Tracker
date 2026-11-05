@@ -1,0 +1,29 @@
+name: smart_expense_tracker
+description: "Smart Expense Tracker - A modern Material 3 expense management app for Android."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management using Provider and ChangeNotifier
+  provider: ^6.1.2
+  # Local persistent key-value storage
+  shared_preferences: ^2.3.2
+  # Modern financial charts and analytics
+  fl_chart: ^0.69.0
+  # Date formatting and localization
+  intl: ^0.19.0
+  # Material and Cupertino icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
